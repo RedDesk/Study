@@ -89,6 +89,9 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -124,6 +127,19 @@
     <ClCompile Include="2 CRTP.cpp" />
     <ClCompile Include="2-2 CRTP 활용.cpp" />
     <ClCompile Include="3 policy base.cpp" />
+    <ClCompile Include="3-1 STL allocator.cpp" />
+    <ClCompile Include="3-2 UserDefine Allocator.cpp" />
+    <ClCompile Include="3-3 allocator rebind.cpp" />
+    <ClCompile Include="4 SFINAE.cpp" />
+    <ClCompile Include="4-1 enable_if.cpp" />
+    <ClCompile Include="4-2 enable-if.cpp" />
+    <ClCompile Include="4-3 using enable_if.cpp" />
+    <ClCompile Include="4-4 enable_if vs integral_constant.cpp" />
+    <ClCompile Include="5 member detect idioms.cpp" />
+    <ClCompile Include="5-1 typedef detect.cpp" />
+    <ClCompile Include="5-2 member function detect.cpp" />
+    <ClCompile Include="6 Typelist Length.cpp" />
+    <ClCompile Include="6-1 Typelist.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
