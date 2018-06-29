@@ -69,5 +69,14 @@
     <ClCompile Include="6-1 Typelist.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="6-2 Typelist Typeat.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6-3 Typelist Append.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6-4 using Typelist.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
